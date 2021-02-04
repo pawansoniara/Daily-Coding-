@@ -19,8 +19,7 @@ function bubbleSort(start, end) {
   }
 }
 
-console.log("arrsss", arr);
-
+console.log("before", "loop :" + loop, arr);
 bubbleSort(0, arr.length - 1);
+console.log("after", "loop :" + loop, arr);
 
-console.log("arr", loop, arr);
