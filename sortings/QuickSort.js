@@ -6,10 +6,9 @@ function swap(s, d) {
   arr[d] = t;
 }
 
-
 let stack = 0;
-let loop=0;
-function sort(start, end) {
+let loop = 0;
+function quickSort(start, end) {
   if (start >= end) return;
   stack++;
 
@@ -23,12 +22,10 @@ function sort(start, end) {
     }
   }
 
-  sort(start, counter - 1);
-  sort(counter + 1, end);
+  quickSort(start, counter - 1);
+  quickSort(counter + 1, end);
 }
 
-
-console.log("arrsss", stack,arr);
-sort(0, arr.length - 1);
-
-console.log("arr", stack,loop,arr);
+console.log("before", "loop :" + loop, arr);
+quickSort(0, arr.length - 1);
+console.log("after", "loop :" + loop, arr);

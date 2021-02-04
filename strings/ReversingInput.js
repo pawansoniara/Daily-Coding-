@@ -1,5 +1,5 @@
 const fName = process.argv[2].split("");
-const abc = fName
+const abc = [...fName];
 let i = 0,
   maxSize = fName.length / 2;
 
@@ -18,4 +18,4 @@ while (i < maxSize) {
   i++;
 }
 
-console.log(fName.join(""));
+console.log(abc.join("") == fName.join(""));
