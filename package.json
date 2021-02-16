@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "app-60": "node app-60.js",
-    "app-92": "node app-92.js"
+    "caterpilliar": "node geekOfGeeks/caterpilliar.js"
   },
   "author": "",
   "license": "ISC"
