@@ -9,7 +9,7 @@ function swap(s, d) {
 
 function selectionSort(length) {
   for (let i = 0; i < length; i++) {
-    for (let j = i ; j <= length; j++) {
+    for (let j = i +1; j <= length; j++) {
       loop++;
       if (arr[i] > arr[j]) {
         swap(i, j);
