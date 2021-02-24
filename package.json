@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "caterpilliar": "node geekOfGeeks/caterpilliar.js"
+    "DC-138": "node dc/DC-138.js"
   },
   "author": "",
   "license": "ISC"
