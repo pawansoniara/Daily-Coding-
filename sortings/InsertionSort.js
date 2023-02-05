@@ -7,6 +7,7 @@ function insertionSort(length) {
     let j = i - 1;
 
     while (j >= 0 && arr[j] > key) {
+      
       loop++;
       arr[j + 1] = arr[j];
       j = j - 1;
@@ -18,5 +19,3 @@ function insertionSort(length) {
 console.log("before", "loop :" + loop, arr);
 insertionSort(arr.length - 1);
 console.log("after", "loop :" + loop, arr);
-
-// Insertion Sort
